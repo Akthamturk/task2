@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    
+}
+a{
+text-decoration: none;
+color: #0D0E43;
+margin-right: 30px;
+}
+.header{
+    display: flex;
+justify-content: space-around;
+margin-top: 20px;
+}
+.search{
+    border: solid 1px;
+    display: flex;
+}
+.search input,.search button{
+    border-style: none;
+}
+.search button{
+    padding: 8px;
+    background-color: #FB2E86;
+    text-align: center;
+}
+.list a{
+    transition: 0.7s;
+}
+.header .list a:hover {
+    color: #FB2E86;
+}
